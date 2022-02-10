@@ -7,16 +7,18 @@ int myData[10];
 
 int main()
 {
-  for (n=0; n<10; n++)
+  for (int n=0; n<10; n++)
     {
       myData[n] = 1;
-      //cout << myData
+      cout << myData;
     }
-  do
+  /*do
   {
     cout << myData[i] << endl;
     cout << "Input cell index"<< endl;
     int i;
     cin >> i;
   }while();
+*/
+  return 0;
 }

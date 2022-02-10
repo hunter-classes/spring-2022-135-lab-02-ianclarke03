@@ -4,8 +4,9 @@
 using namespace std;
 
 int n;
-cout << "Please enter an integer:";
 cin >> n;
+cout << "Please enter an integer:";
+
 
 int main()
 {
