@@ -14,28 +14,38 @@ int myData[10];
 int i;
 int v;
 
-for (int i=0; i<10; i++)
-      {
-        myData[i] = 1;
-        }
 
 int main()
 {
+  for (int i=0; i<10; i++)
+      {
+        myData[i] = 1;
+        cout << myData[i] << " ";
+        }
+  cout << endl;
   do
   {
-    cout << myData[i] << " ";
-    i++;
-    cout << endl;
-    /*cout << "Input index: ";
+    //cout << myData[i] << " ";
+    //cout << endl;
+    
+    cout << "Input index: ";
     cin >> i;
     cout << "Input value: ";
     cin >> v;
+    
     myData[i] = v;
-    cout << myData[];
     for (int i=0; i<10; i++)
       {
         cout << myData[i] << " ";
-      */}
+        }
+    cout << endl;
+
+    if (i < 0 || i > 9)
+    {
+      cout << "Index out of range. Exit.";
+      break;
+    }
+    
   } while(0 <= i < 10); 
     
   return 0;
