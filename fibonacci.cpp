@@ -20,6 +20,5 @@ fib[1] = 1;
   return 0;
   }
 
-//Once your program is complete and works, check carefully the values printed on the screen. Specifically, what is happening when the numbers approach two billions? We expect that at some point the numbers start diverging from what they should be. Describe what you observe and explain why it is happening in a program comment.
 
-// because the 
+// When the numbers approach 2 billions, they start becoming negative, and in a fibonacci sequence, the numbers should only be increasing. The reason for this is because an int only holds 8 bits, so when the numbers surpass 8 bits, it wraps around past the limit to zero. Therefore, some numbers become negative in the output.
