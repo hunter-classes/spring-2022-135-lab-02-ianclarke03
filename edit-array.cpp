@@ -4,21 +4,26 @@
 using namespace std;
 
 int myData[10];
+int i;
+int v;
 
 int main()
 {
-  for (int n=0; n<10; n++)
-    {
-      myData[n] = 1;
-      cout << myData;
-    }
-  /*do
+  do
   {
-    cout << myData[i] << endl;
-    cout << "Input cell index"<< endl;
-    int i;
+    for (int i=0; i<10; i++)
+      {
+        myData[i] = 1;
+        cout << myData[i] << " ";
+      }
+    cout << endl;
+    cout << "Input index: ";
     cin >> i;
-  }while();
-*/
+    cout << "Input value: ";
+    cin >> v;
+    myData[i] = v;
+    //cout << myData[];
+  } while(0 <= i < 10); 
+    
   return 0;
 }
