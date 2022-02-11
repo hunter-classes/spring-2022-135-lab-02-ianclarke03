@@ -15,12 +15,12 @@ int n;
 
 int main()
 {
-  cout << "Please enter an integer:";
+  cout << "Please enter an integer: ";
   cin >> n;
   while ((n < 0) || (n > 100))
   {
     
-    cout << "Please re-enter:";
+    cout << "Please re-enter: ";
     cin >> n;
     }
   cout << (n * n) << endl;
