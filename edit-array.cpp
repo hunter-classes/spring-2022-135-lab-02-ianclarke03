@@ -2,7 +2,7 @@
 Author: Ian Clarke
 Course: CSCI-135
 Instructor: Michael Zamansky
-Assignment: Lab2D
+Assignment: Lab2C
 
 Creates an array of 10 integers, and provides the user with an interface to edit any of its elements.
 */
