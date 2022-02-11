@@ -1,4 +1,12 @@
-// comment
+/*
+Author: Ian Clarke
+Course: CSCI-135
+Instructor: Michael Zamansky
+Assignment: Lab2D
+
+Write a program fibonacci.cpp, which uses an array of ints to compute and print all Fibonacci numbers from F(0) to F(59).
+*/
+
 #include <iostream>
 using namespace std;
 
